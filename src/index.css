@@ -87,6 +87,10 @@ a {
   cursor: pointer;
 }
 
+.search-form button:disabled {
+  background-color: rgba(19, 1, 1, 0.3);
+}
+
 .active {
   background-color: #051c33;
   cursor: pointer;
